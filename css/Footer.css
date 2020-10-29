@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.footer-container{
+    background-color: #404244;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    height: 65px;
+    padding-top: 11px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.footer-container a{
+    float: initial;
+    background-color: #404244;
+}
+
+.footer-container i{
+    font-size: 30px;
+    color: white;
+    width: 0px;
+}
+
+.footer-container i:hover{
+    color: #487f9c;
+}

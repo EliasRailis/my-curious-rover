@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Curious Rover</title>
+        <link rel="icon" href="/logos/fav.png" type="image/x-icon">
+        <link rel="stylesheet" href="/css/NavigationMenu.css">
+        <link rel="stylesheet" href="/css/Footer.css">
+        <link rel="stylesheet" href="/css/PageBody.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="nav-bar">
+            <img class="nav-bar-logo" src="/logos/logo.jpg" alt="logo">
+        </header>
+        <div class="instructions-container">
+            <p>Select which API you would like to view</p>
+        </div>
+        <div class="radio-button-container">
+            <label>
+                <input type="radio" class="option-input" value="apod" name="radio-button" checked/>Astronomy Picture of the Day
+            </label>
+            <label>
+                <input type="radio" class="option-input" value="mars" name="radio-button"/>Mars Rover Photos
+            </label>
+        </div>
+        <div class="calendar-container">
+            <label>Select the date:</label>
+            <input type="date" class="calendar-option" id="date">
+        </div>
+        <div class="button-container">
+            <button id="viewResultButton" class="results-button" href="">View Results</button>
+        </div>
+        <div id="images"></div>
+        <footer class="footer-container">View the code behind this website in the following link.
+            <a href="https://github.com/elirailis/my-curious-rover" target="_blank">
+                <i class="fa fa-github"></i>
+            </a>
+        </footer>
+        <script type="text/javascript" src="/js/Main.js"></script>
+    </body>
+</html>
